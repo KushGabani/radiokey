@@ -43,7 +43,7 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 9. Create a new pull request aiming to merge with the main branch
 10. The pull request will be reviewed and accepted if there are no bugs and it follows proper formatting guidelines
 
-## Add your name to the list of Contributors
+## Add your name to the list of Contributors NOW!
 1. Star the Repository
 2. Follow [Kush Gabani's GitHub Profile](https://github.com/KushGabani)
 3. Fork the repository
