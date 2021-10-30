@@ -17,7 +17,7 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 
 1. Fork the repository
 2. Clone the forked repository on your system
-3. Follow the `Set up the project on a local machine` steps from [ReadMe.md](./README.md) starting from step 3
+3. Follow the `Set up the project on a local machine` steps from [ReadMe.md](./ReadMe.md) starting from step 3
 4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have already
 5. Create a new branch for your contribution with the branch following the relevant format below
    - To propose a new feature
