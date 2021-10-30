@@ -5,6 +5,13 @@ After the downfall of Groovy and Rythm as they now no longer provide the music b
 
 ---
 
+```
+If this music bot helped you even a bit, please consider following
+my GitHub account and Star the repository
+```
+
+---
+
 ## 🎡 Prerequisites
 - Install [Git](https://git-scm.com/downloads)
 - Install [Node](https://nodejs.org/en/download/)
@@ -22,7 +29,7 @@ After the downfall of Groovy and Rythm as they now no longer provide the music b
     ```shell
     npm install
     ```
-4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally
+4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have access already.
 5. Hosting the bot locally
     ```shell
     npm run start
