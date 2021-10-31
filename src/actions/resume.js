@@ -2,7 +2,7 @@ module.exports = {
   name: "resume",
   aliases: ["res"],
   category: "actions",
-  utilisation: "@resume",
+  utilisation: "*resume",
 
   execute(client, message) {
     if (!message.member.voice.channel)
