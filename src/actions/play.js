@@ -2,7 +2,7 @@ module.exports = {
   name: "play",
   aliases: ["p"],
   category: "actions",
-  utilisation: "@play [name/URL]",
+  utilisation: "*play [name/URL]",
 
   execute(client, message, args) {
     if (!message.member.voice.channel)
