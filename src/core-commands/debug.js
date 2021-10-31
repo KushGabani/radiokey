@@ -9,9 +9,7 @@ module.exports = {
       embed: {
         color: "ORANGE",
         title: "Debug",
-        description: {
-          name: `${client.user.username} connected in ${client.voice.connections.size} channels !`,
-        },
+        description: `${client.user.username} connected in ${client.voice.connections.size} channels !`,
         footer: {
           text: "Radiokey | A Product by Kush Gabani",
         },
