@@ -2,14 +2,14 @@ module.exports = {
   name: "ping",
   aliases: [],
   category: "Infos",
-  utilisation: "{prefix}ping",
+  utilisation: "*ping",
 
   execute(client, message) {
     message.channel.send({
       embed: {
         color: "ORANGE",
         title: "Ping",
-        description: { name: `Ping : ${client.ws.ping}ms!` },
+        description: `Ping : ${client.ws.ping}ms!`,
         footer: {
           text: "Radiokey | A Product by Kush Gabani",
         },

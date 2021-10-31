@@ -2,7 +2,7 @@ module.exports = {
   name: "help",
   aliases: ["h"],
   category: "core",
-  utilization: "@help <command>",
+  utilization: "*help <command>",
 
   execute(client, message, args) {
     if (!args[0]) {
@@ -22,6 +22,7 @@ module.exports = {
           footer: {
             text: "Radiokey | A Product by Kush Gabani",
           },
+          description: "List of features",
           fields: [
             { name: "Bot", value: core },
             { name: "Actions", value: actions },

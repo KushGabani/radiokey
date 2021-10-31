@@ -2,7 +2,7 @@ module.exports = {
   name: "debug",
   aliases: [],
   category: "core",
-  utilisation: "@debug",
+  utilisation: "*debug",
 
   execute(client, message) {
     message.channel.send({
