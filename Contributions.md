@@ -18,8 +18,23 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 1. Fork the repository
 2. Clone the forked repository on your system
 3. Follow the `Set up the project on a local machine` steps from [ReadMe.md](https://github.com/KushGabani/radiokey/blob/main/ReadMe.md) starting from step 3
-4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have already
-5. Create a new branch for your contribution with the branch following the relevant format below
+4. Set up syncing from the original repository
+    ```shell
+    git remote add upstream https://github.com/KushGabani/radiokey.git
+    ```
+5. Ensure the configuration looks correct.
+    ```shell
+    git remote -v
+    ```
+   Output:
+    ```shell
+    origin    https://github.com/YOUR_USER_NAME/radiokey.git (fetch)
+    origin    https://github.com/YOUR_USER_NAME/radiokey.git (push)
+    upstream    https://github.com/KushGabani/radiokey.git (fetch)
+    upstream    https://github.com/KushGabani/radiokey.git (push)
+    ```
+6. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have already
+7. Create a new branch for your contribution with the branch following the relevant format below
    - To propose a new feature
 
      `feat/<feature-name>-<firstname and lastname initials>`
@@ -33,15 +48,15 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
      `docs/<language>-<firstname and lastname initials>`    
 
      For example, to add a new translations in English, you shall create the branch with the name `docs/EN-KG`
-6. Make sure you run `npm run format` to let prettier automatically format the files to follow the formatting guidelines 
-7. Commit the changes locally and push them to your forked repository
-8. Before creating a pull request make sure you have completed the following checklist
-   - [ ] Followed the proper guidelines above
-   - [ ] Provided comments to necessary parts of the code
-   - [ ] Properly formatted the code using prettier
-   - [ ] Tested the bot locally and it works fine
-9. Create a new pull request aiming to merge with the main branch
-10. The pull request will be reviewed and accepted if there are no bugs and it follows proper formatting guidelines
+8. Make sure you run `npm run format` to let prettier automatically format the files to follow the formatting guidelines 
+9. Commit the changes locally and push them to your forked repository
+10. Before creating a pull request make sure you have completed the following checklist
+    - [ ] Followed the proper guidelines above
+    - [ ] Provided comments to necessary parts of the code
+    - [ ] Properly formatted the code using prettier
+    - [ ] Tested the bot locally and it works fine
+11. Create a new pull request aiming to merge with the main branch
+12. The pull request will be reviewed and accepted if there are no bugs and it follows proper formatting guidelines
 
 ## Add your name to the list of Contributors NOW!
 1. Star the Repository

@@ -24,7 +24,7 @@ my GitHub account and Star the repository
 ## 🚀 Set up the project on a local machine
 1. Clone the repository to your desired location
     ```shell
-    git clone https://github.com/KushGabani/radiokey
+    git clone --depth=3 https://github.com/KushGabani/radiokey
     ```
 2. Set the current working directory as Radiokey
     ```shell
