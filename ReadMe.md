@@ -46,10 +46,11 @@ my GitHub account and Star the repository
 
 ## 💎 Feature Checklist
 To request a new feature, please refer to [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
+To work on a feature, please raise a new issue and its respective pull request accordingly.
 - [x] Help
 - [x] Ping
 - [x] Debug
-- [ ] Play
+- [x] Play
 - [ ] Pause
 - [ ] Resume
 - [ ] Shuffle
