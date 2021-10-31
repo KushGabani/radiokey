@@ -19,8 +19,8 @@ const discordEvents = fs
   .filter((file) => file.endsWith(".js"));
 
 const playerEvents = fs
-    .readdirSync(path.resolve(__dirname, "./player-events"))
-    .filter((file) => file.endsWith(".js"));
+  .readdirSync(path.resolve(__dirname, "./player-events"))
+  .filter((file) => file.endsWith(".js"));
 
 for (const file of commands) {
   const command = require(`./core-commands/${file}`);
@@ -40,6 +40,9 @@ for (const file of playerEvents) {
   client.player.on(file.split(".")[0], event.bind(null, client));
 }
 
-client.login(client.config.discord.token).then(() => console.log("Radiokey compiled!")).catch((error) => {
-  console.log(error);
-});
+client
+  .login(client.config.discord.token)
+  .then(() => console.log("Radiokey compiled!"))
+  .catch((error) => {
+    console.log(error);
+  });
