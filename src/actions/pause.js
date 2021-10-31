@@ -2,7 +2,7 @@ module.exports = {
   name: "pause",
   aliases: [],
   category: "actions",
-  utilisation: "@pause",
+  utilisation: "*pause",
 
   execute(client, message) {
     if (!message.member.voice.channel)
