@@ -1,10 +1,10 @@
-<center>
+<h1 align="center">
 
-#RadioKey
+RadioKey
 
 [![License: GNU](https://img.shields.io/badge/License-GNU-green.svg)](https://opensource.org/licenses/gpl-license)
 
-</center>
+</h1>
 
 After the downfall of Groovy and Rythm as they now no longer provide the music bot service, An open-source discord music bot that enables listening to music with members of a server.
 
