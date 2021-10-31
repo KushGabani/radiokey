@@ -1,7 +1,7 @@
 module.exports = {
   name: "ping",
   aliases: [],
-  category: "Infos",
+  category: "core",
   utilisation: "*ping",
 
   execute(client, message) {
