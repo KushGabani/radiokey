@@ -51,7 +51,7 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Ping
 - [x] Debug
 - [x] Play
-- [ ] Pause
+- [x] Pause
 - [ ] Resume
 - [ ] Shuffle
 - [ ] Loop
