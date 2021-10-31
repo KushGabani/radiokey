@@ -64,6 +64,15 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 3. Fork the repository
 4. Provided at least one of your pull requests is accepted.
 
+## Existing Contributors
+Given you already have set up the codebase locally as described in the instructions. Before working on a new feature, make sure you sync your cloned repository with the original [parent repository](https://github.com/KushGabani/radiokey) using the following command
+```shell
+git fetch upstream
+```
+To hard reset your main branch with the KushGabani/radiokey main:
+```shell
+git reset --hard upstream/main
+```
 ## Template for contributing a new feature 
 When adding a new feature, make sure you create a new file for named `src/actions/<feature-name>.js`. Inside this file follow the template given below
 ```javascript
