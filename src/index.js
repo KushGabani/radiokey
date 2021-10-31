@@ -12,7 +12,9 @@ const commands = fs
   .readdirSync(path.resolve(__dirname, "./core-commands"))
   .filter((files) => files.endsWith(".js"));
 
-console.log(commands);
+const actions = fs
+  .readdirSync(path.resolve(__dirname, "./actions"))
+  .filter((files) => files.endsWith(".js"));
 
 const discordEvents = fs
   .readdirSync(path.resolve(__dirname, "./discord-events"))
@@ -26,6 +28,12 @@ for (const file of commands) {
   const command = require(`./core-commands/${file}`);
   console.log(`Loading command ${file}...`);
   client.commands.set(command.name.toLowerCase(), command);
+}
+
+for (const file of actions) {
+  const action = require(`./actions/${file}`);
+  console.log(`Loading comamnd ${file}...`);
+  client.commands.set(action.name.toLowerCase(), action);
 }
 
 for (const file of discordEvents) {
