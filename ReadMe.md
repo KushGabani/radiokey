@@ -64,3 +64,4 @@ To request a new feature, please refer to [contributions.md](https://github.com/
 ## 🌟 List of Contributors
 Want to know how to make your contributions? Refer the checklist in [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
 - [Kush Gabani (Author)](https://github.com/KushGabani/)
+- [Manav Desai](https://github.com/ManavD522)
