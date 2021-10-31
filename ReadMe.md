@@ -35,11 +35,16 @@ my GitHub account and Star the repository
     npm install
     ```
 4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have access already.
-5. Hosting the bot locally
+5. Create .env to contain the bot token. A sample.env file has already been provided.
+   ```shell
+   copy sample.env .env
+   ```
+   Once the .env file is created, replace it with your bot token in .env
+6. Hosting the bot locally
     ```shell
     npm run start
     ```
-6. Open the current directory in the IDE of your choice to start editing, fixing, and creating new features. **✨Happy Contributions✨**
+7. Open the current directory in the IDE of your choice to start editing, fixing, and creating new features. **✨Happy Contributions✨**
 
 ## 💎 Feature Checklist
 To request a new feature, please refer to [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
