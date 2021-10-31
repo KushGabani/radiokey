@@ -52,7 +52,8 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Debug
 - [x] Play
 - [x] Pause
-- [ ] Resume
+- [x] Resume
+- [ ] Stop | Disconnect
 - [ ] Shuffle
 - [ ] Loop
 - [ ] Now Playing
