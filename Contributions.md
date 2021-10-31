@@ -17,7 +17,7 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 
 1. Fork the repository
 2. Clone the forked repository on your system
-3. Follow the `Set up the project on a local machine` steps from [ReadMe.md](./ReadMe.md) starting from step 3
+3. Follow the `Set up the project on a local machine` steps from [ReadMe.md](https://github.com/KushGabani/radiokey/blob/main/ReadMe.md) starting from step 3
 4. Raise a new GitHub issue named "Request Access: <your name>" to get access to test the bot locally if you don't have already
 5. Create a new branch for your contribution with the branch following the relevant format below
    - To propose a new feature
@@ -48,3 +48,18 @@ In case where you want to contribute a new feature yourself, fix any bugs or res
 2. Follow [Kush Gabani's GitHub Profile](https://github.com/KushGabani)
 3. Fork the repository
 4. Provided at least one of your pull requests is accepted.
+
+## Template for contributing a new feature 
+When adding a new feature, make sure you create a new file for named `src/actions/<feature-name>.js`. Inside this file follow the template given below
+```javascript
+module.exports = {
+    aliases: [""], // a list of aliases
+    category: "<category>", // "core" || "action",
+    utilization: "@<action-name>",
+    
+    // sometimes the args paramter may be not be needed.
+    execute(client, messages, args) {
+        // TODO: your code goes here
+    }
+}
+```

@@ -1,5 +1,10 @@
-# Radiokey
+<center>
+
+#RadioKey
+
 [![License: GNU](https://img.shields.io/badge/License-GNU-green.svg)](https://opensource.org/licenses/gpl-license)
+
+</center>
 
 After the downfall of Groovy and Rythm as they now no longer provide the music bot service, An open-source discord music bot that enables listening to music with members of a server.
 
@@ -37,7 +42,7 @@ my GitHub account and Star the repository
 6. Open the current directory in the IDE of your choice to start editing, fixing, and creating new features. **✨Happy Contributions✨**
 
 ## 💎 Feature Checklist
-To request a new feature, please refer to [contributions.md](./contributions.md)
+To request a new feature, please refer to [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
 - [ ] Play
 - [ ] Pause
 - [ ] Resume
@@ -51,5 +56,5 @@ To request a new feature, please refer to [contributions.md](./contributions.md)
 - [ ] Search
 
 ## 🌟 List of Contributors
-Want to know how to make your contributions? Refer the checklist in [contributions.md](./contributions.md)
+Want to know how to make your contributions? Refer the checklist in [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
 - [Kush Gabani (Author)](https://github.com/KushGabani/)
