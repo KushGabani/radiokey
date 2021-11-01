@@ -1,3 +1,5 @@
+const sendMessage = require("./../templates/message");
+
 module.exports = {
   name: "ping",
   aliases: [],
@@ -5,16 +7,6 @@ module.exports = {
   utilisation: "*ping",
 
   execute(client, message) {
-    message.channel.send({
-      embed: {
-        color: "ORANGE",
-        title: "Ping",
-        description: `Ping : ${client.ws.ping}ms!`,
-        footer: {
-          text: "Radiokey | A Product by Kush Gabani",
-        },
-        timestamp: new Date(),
-      },
-    });
+    sendMessage("Ping",`Ping : ${client.ws.ping}ms!` )
   },
 };
