@@ -1,4 +1,4 @@
-module.exports = (title = "", description = "", fields = []) => {
+module.exports = (message, title = "", description = "", fields = []) => {
   return fields.length == 0
     ? message.channel.send({
         embed: {

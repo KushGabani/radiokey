@@ -7,6 +7,6 @@ module.exports = {
   utilisation: "*ping",
 
   execute(client, message) {
-    sendMessage("Ping", `Ping : ${client.ws.ping}ms!`);
+    sendMessage(message, "Ping", `Ping : ${client.ws.ping}ms!`);
   },
 };

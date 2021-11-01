@@ -12,7 +12,7 @@ module.exports = {
 
     if (response) return response;
 
-    if (!args[0]) return sendMessage("No song given");
+    if (!args[0]) return sendMessage(message, "No song given");
 
     const track = args.join(" ");
     client.player

@@ -16,7 +16,7 @@ module.exports = {
         .map((x) => "`" + x.name + "`")
         .join(", ");
 
-      sendMessage("Help Panel", "List of features", [
+      sendMessage(message, "Help Panel", "List of features", [
         { name: "Bot", value: core },
         { name: "Actions", value: actions },
       ]);
@@ -29,11 +29,12 @@ module.exports = {
 
       if (!command)
         return sendMessage(
+          message,
           "the command doesn't exist",
           "Want a new feature? request a new feature at https://github.com/KushGabani/Radiokey"
         );
 
-      sendMessage("Help Panel", "", [
+      sendMessage(message, "Help Panel", "", [
         { name: "Name", value: command.name, inline: true },
         { name: "Category", value: command.category, inline: true },
         {

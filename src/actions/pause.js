@@ -13,14 +13,15 @@ module.exports = {
     if (response) return response;
 
     if (!client.player.getQueue(message))
-      return sendMessage("Error", "No songs. Cannot pause");
+      return sendMessage(message, "Error", "No songs. Cannot pause");
 
     if (client.player.getQueue(message).paused)
-      return sendMessage("Error", "Song already paused!");
+      return sendMessage(message, "Error", "Song already paused!");
 
     client.player.pause(message);
 
     sendMessage(
+      message,
       "Paused!",
       `Song ${client.player.getQueue(message).playing.title} paused!`
     );
