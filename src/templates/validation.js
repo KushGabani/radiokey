@@ -1,5 +1,5 @@
 module.exports = (message) => {
-    if (!message.member.voice.channel)
+  if (!message.member.voice.channel)
     return message.channel.send({
       embed: {
         color: "ORANGE",
@@ -27,5 +27,5 @@ module.exports = (message) => {
         timestamp: new Date(),
       },
     });
-    return false
-}
+  return false;
+};

@@ -7,11 +7,10 @@ module.exports = {
   utilisation: "*play [name/URL]",
 
   execute(client, message, args) {
-    
     const response = basicChecks(message);
-    
+
     if (response) return response;
- 
+
     if (!args[0])
       return message.channel.send({
         embed: {

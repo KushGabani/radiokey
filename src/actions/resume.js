@@ -7,9 +7,8 @@ module.exports = {
   utilisation: "*resume",
 
   execute(client, message) {
-   
     const response = basicChecks(message);
-    
+
     if (response) return response;
 
     if (!client.player.getQueue(message))
