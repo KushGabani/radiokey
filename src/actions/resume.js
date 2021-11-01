@@ -1,3 +1,5 @@
+const basicChecks = require("../templates/validation");
+
 module.exports = {
   name: "resume",
   aliases: ["res"],
@@ -5,34 +7,9 @@ module.exports = {
   utilisation: "*resume",
 
   execute(client, message) {
-    if (!message.member.voice.channel)
-      return message.channel.send({
-        embed: {
-          color: "ORANGE",
-          title: "Error",
-          description: "Please connect to a voice channel",
-          footer: {
-            text: "Radiokey | A product by Kush Gabani",
-          },
-          timestamp: new Date(),
-        },
-      });
+    const response = basicChecks(message);
 
-    if (
-      message.guild.me.voice.channel &&
-      message.member.voice.channel.id !== message.guild.me.voice.channel.id
-    )
-      return message.channel.send({
-        embed: {
-          color: "ORANGE",
-          title: "Error",
-          description: "You're not connected to the same voice channel",
-          footer: {
-            text: "Radiokey | A product by Kush Gabani",
-          },
-          timestamp: new Date(),
-        },
-      });
+    if (response) return response;
 
     if (!client.player.getQueue(message))
       return message.channel.send({
@@ -64,7 +41,7 @@ module.exports = {
     message.channel.send({
       embed: {
         color: "ORANGE",
-        title: "Paused!",
+        title: "Resumed!",
         description: `Song ${
           client.player.getQueue(message).playing.title
         } resumed !`,
