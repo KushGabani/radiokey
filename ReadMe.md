@@ -76,3 +76,4 @@ Want to know how to make your contributions? Refer the checklist in [contributio
 - [Himanshu Kashyap](https://github.com/thehimanshukashyap/)
 - [Kesar Bhimani](https://github.com/KesarBhimani/)
 - [Smit Mewada](https://github.com/SmitMewada/)
+- [Nakul Tikiwala](https://github.com/NakulTikiwala)
