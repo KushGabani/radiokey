@@ -1,5 +1,5 @@
 const basicChecks = require("../templates/validation");
-
+const sendMessage = require("./../templates/message");
 module.exports = {
   name: "resume",
   aliases: ["res"],
@@ -12,44 +12,17 @@ module.exports = {
     if (response) return response;
 
     if (!client.player.getQueue(message))
-      return message.channel.send({
-        embed: {
-          color: "ORANGE",
-          title: "Error",
-          description: "No songs. Cannot pause",
-          footer: {
-            text: "Radiokey | A product by Kush Gabani",
-          },
-          timestamp: new Date(),
-        },
-      });
+      return sendMessage(message, "Error", "no songs. Cannot pause");
 
     if (!client.player.getQueue(message).paused)
-      return message.channel.send({
-        embed: {
-          color: "ORANGE",
-          title: "Error",
-          description: "Song already resumed!",
-          footer: {
-            text: "Radiokey | A product by Kush Gabani",
-          },
-          timestamp: new Date(),
-        },
-      });
+      return sendMessage(message, "Error", "Song already resumed!");
 
     client.player.resume(message);
-    message.channel.send({
-      embed: {
-        color: "ORANGE",
-        title: "Resumed!",
-        description: `Song ${
-          client.player.getQueue(message).playing.title
-        } resumed !`,
-        footer: {
-          text: "Radiokey | A project by Kush Gabani",
-        },
-        timestamp: new Date(),
-      },
-    });
+
+    sendMessage(
+      message,
+      "Resumed!",
+      `Song ${client.player.getQueue(message).playing.title} resumed !`
+    );
   },
 };

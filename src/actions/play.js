@@ -1,4 +1,5 @@
 const basicChecks = require("../templates/validation");
+const sendMessage = require("./../templates/message");
 
 module.exports = {
   name: "play",
@@ -11,17 +12,7 @@ module.exports = {
 
     if (response) return response;
 
-    if (!args[0])
-      return message.channel.send({
-        embed: {
-          color: "ORANGE",
-          title: "No song given",
-          footer: {
-            text: "Radiokey | A product by Kush Gabani",
-          },
-          timestamp: new Date(),
-        },
-      });
+    if (!args[0]) return sendMessage(message, "No song given");
 
     const track = args.join(" ");
     client.player
