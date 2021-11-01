@@ -6,6 +6,9 @@ module.exports = {
   utilisation: "*debug",
 
   execute(client, message) {
-    sendMessage("Debug", `${client.user.username} connected in ${client.voice.connections.size} channels !`)
+    sendMessage(
+      "Debug",
+      `${client.user.username} connected in ${client.voice.connections.size} channels !`
+    );
   },
 };

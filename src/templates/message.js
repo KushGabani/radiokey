@@ -1,5 +1,6 @@
-module.exports = (title="", description="", fields=[]) => {
-    return (fields.length == 0) ? message.channel.send({
+module.exports = (title = "", description = "", fields = []) => {
+  return fields.length == 0
+    ? message.channel.send({
         embed: {
           color: "ORANGE",
           title: title,
@@ -8,7 +9,8 @@ module.exports = (title="", description="", fields=[]) => {
             text: "Radiokey | A product by Kush Gabani",
           },
         },
-      }) : message.channel.send({
+      })
+    : message.channel.send({
         embed: {
           color: "ORANGE",
           title: title,
@@ -19,4 +21,4 @@ module.exports = (title="", description="", fields=[]) => {
           fields: fields,
         },
       });
-}
+};

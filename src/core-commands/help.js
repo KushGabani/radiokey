@@ -16,11 +16,10 @@ module.exports = {
         .map((x) => "`" + x.name + "`")
         .join(", ");
 
-        
-        sendMessage("Help Panel", "List of features", [
-          { name: "Bot", value: core },
-          { name: "Actions", value: actions },
-        ])
+      sendMessage("Help Panel", "List of features", [
+        { name: "Bot", value: core },
+        { name: "Actions", value: actions },
+      ]);
     } else {
       const command =
         message.client.commands.get(args.join(" ").toLowerCase()) ||
@@ -29,17 +28,18 @@ module.exports = {
         );
 
       if (!command)
-      return sendMessage("the command doesn't exist", "Want a new feature? request a new feature at https://github.com/KushGabani/Radiokey")
+        return sendMessage(
+          "the command doesn't exist",
+          "Want a new feature? request a new feature at https://github.com/KushGabani/Radiokey"
+        );
 
-      sendMessage("Help Panel", "",[
+      sendMessage("Help Panel", "", [
         { name: "Name", value: command.name, inline: true },
         { name: "Category", value: command.category, inline: true },
         {
           name: "Aliases",
           value:
-            command.aliases.length < 1
-              ? "None"
-              : command.aliases.join(", "),
+            command.aliases.length < 1 ? "None" : command.aliases.join(", "),
           inline: true,
         },
         {
@@ -47,7 +47,7 @@ module.exports = {
           value: command.utilization,
           inline: true,
         },
-      ] )
+      ]);
     }
   },
 };

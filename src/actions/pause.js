@@ -17,11 +17,12 @@ module.exports = {
 
     if (client.player.getQueue(message).paused)
       return sendMessage("Error", "Song already paused!");
-      
+
     client.player.pause(message);
 
-    sendMessage("Paused!", `Song ${
-      client.player.getQueue(message).playing.title
-    } paused!`)
+    sendMessage(
+      "Paused!",
+      `Song ${client.player.getQueue(message).playing.title} paused!`
+    );
   },
 };
