@@ -16,7 +16,7 @@ module.exports = {
 
     if (!client.player.getQueue(message))
       return sendMessage(message, "Error", "no songs. Cannot pause");
-      
+
     message.channel.send(
       `**Server queue - ${message.guild.name} ${
         client.player.getQueue(message).loopMode ? "(looped)" : ""
