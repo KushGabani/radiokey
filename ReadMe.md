@@ -64,7 +64,7 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Loop
 - [ ] Now Playing
 - [x] Queue
-- [ ] Clear Queue
+- [x] Clear Queue
 - [ ] Skip
 - [ ] Volume
 - [ ] Search
