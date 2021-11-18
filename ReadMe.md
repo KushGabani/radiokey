@@ -78,3 +78,4 @@ Want to know how to make your contributions? Refer the checklist in [contributio
 - [Smit Mewada](https://github.com/SmitMewada/)
 - [Nakul Tikiwala](https://github.com/NakulTikiwala)
 - [Gatha Shah](https://github.com/alwaysstaycalm24)
+- [Prarthna Dhameliya](https://github.com/prarthnadhameliya)
