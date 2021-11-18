@@ -59,9 +59,9 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Play
 - [x] Pause
 - [x] Resume
-- [ ] Stop | Disconnect
+- [x] Stop | Disconnect
 - [ ] Shuffle
-- [ ] Loop
+- [x] Loop
 - [ ] Now Playing
 - [ ] Queue
 - [ ] Clear Queue

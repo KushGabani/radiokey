@@ -1,5 +1,5 @@
 module.exports = (message, title = "", description = "", fields = []) => {
-  return fields.length == 0
+  return fields.length === 0
     ? message.channel.send({
         embed: {
           color: "ORANGE",
