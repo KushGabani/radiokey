@@ -60,10 +60,10 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Pause
 - [x] Resume
 - [x] Stop | Disconnect
-- [ ] Shuffle
+- [x] Shuffle
 - [x] Loop
 - [ ] Now Playing
-- [ ] Queue
+- [x] Queue
 - [ ] Clear Queue
 - [ ] Skip
 - [ ] Volume
