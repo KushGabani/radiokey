@@ -79,3 +79,4 @@ Want to know how to make your contributions? Refer the checklist in [contributio
 - [Nakul Tikiwala](https://github.com/NakulTikiwala)
 - [Gatha Shah](https://github.com/alwaysstaycalm24)
 - [Prarthna Dhameliya](https://github.com/prarthnadhameliya)
+- [Darshan Bhatt](https://github.com/DarshanBhatt41)
