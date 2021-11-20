@@ -80,3 +80,4 @@ Want to know how to make your contributions? Refer the checklist in [contributio
 - [Gatha Shah](https://github.com/alwaysstaycalm24)
 - [Prarthna Dhameliya](https://github.com/prarthnadhameliya)
 - [Darshan Bhatt](https://github.com/DarshanBhatt41)
+- [Nirali Navadiya](https://github.com/NiraliNavadiya)
