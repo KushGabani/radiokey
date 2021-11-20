@@ -67,7 +67,7 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Clear Queue
 - [ ] Skip
 - [ ] Volume
-- [ ] Search
+- [x] Search
 
 ## 🌟 List of Contributors
 Want to know how to make your contributions? Refer the checklist in [contributions.md](https://github.com/KushGabani/radiokey/blob/main/Contributions.md)
@@ -79,3 +79,4 @@ Want to know how to make your contributions? Refer the checklist in [contributio
 - [Nakul Tikiwala](https://github.com/NakulTikiwala)
 - [Gatha Shah](https://github.com/alwaysstaycalm24)
 - [Prarthna Dhameliya](https://github.com/prarthnadhameliya)
+- [Darshan Bhatt](https://github.com/DarshanBhatt41)
