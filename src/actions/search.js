@@ -13,7 +13,11 @@ module.exports = {
     if (response) return response;
 
     if (!args[0])
-      return sendMessage(message, "Error", "please indicate the title of the song")
+      return sendMessage(
+        message,
+        "Error",
+        "please indicate the title of the song"
+      );
 
     client.player.play(message, args.join(" "));
   },
