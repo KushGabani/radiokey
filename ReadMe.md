@@ -66,7 +66,7 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Queue
 - [x] Clear Queue
 - [ ] Skip
-- [ ] Volume
+- [x] Volume
 - [x] Search
 
 ## 🌟 List of Contributors
