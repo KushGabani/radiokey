@@ -62,10 +62,10 @@ To work on a feature, please raise a new issue and its respective pull request a
 - [x] Stop | Disconnect
 - [x] Shuffle
 - [x] Loop
-- [ ] Now Playing
+- [x] Now Playing
 - [x] Queue
 - [x] Clear Queue
-- [ ] Skip
+- [x] Skip
 - [x] Volume
 - [x] Search
 
