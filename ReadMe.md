@@ -17,6 +17,12 @@ my GitHub account and Star the repository
 
 ---
 
+```
+Congratulations contributors!! A quick survey has inferred that our bot - radiokey, is now active in
+20+ servers across India with hundreds of people enjoying music together with their
+friends and colleagues.
+```
+
 ## 🎡 Prerequisites
 - Install [Git](https://git-scm.com/downloads)
 - Install [Node](https://nodejs.org/en/download/)
